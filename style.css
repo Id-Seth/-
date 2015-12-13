@@ -1,0 +1,100 @@
+/* 検索ボタン */
+input.search_button {
+	//ボタンの余白設定
+	padding: 50px, 50px;
+	font-size: 1.2em;
+}
+
+/* クリアボタン */
+input.clear_button {
+	//ボタンの余白設定
+	padding: 50px, 50px;
+	font-size: 1.2em;
+}
+
+/* 追加入力フォームのテーブル */
+table.add_form_table {
+	border-width: 1px;
+	border-spacing: 1px;
+	border-style: none;
+	border-color: gray;
+	border-collapse: collapse;
+	width: auto;
+	text-align: center;
+	margin: 10px auto;
+	letter-spacing: 1px;
+}
+
+table.add_form_table th {
+	border-width: 1px;
+	padding: 5px;
+	border-style: inset;
+	border-color: gray;
+	background-color: #151D45;
+	-moz-border-radius: 0px;
+	width: 150px;
+	color: #fff;
+}
+
+table.add_form_table td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #666;
+	-moz-border-radius: 0px;
+	width: 150px;
+}
+
+/* プログラム一覧のテーブル */
+table.program_list_table {
+	border-width: 1px;
+	border-spacing: 1px;
+	border-style: none;
+	border-color: gray;
+	border-collapse: collapse;
+	width: auto;
+	text-align: center;
+	margin: 10px auto;
+	letter-spacing: 1px;
+}
+
+table.program_list_table th {
+	border-width: 1px;
+	padding: 5px;
+	border-style: inset;
+	border-color: gray;
+	background-color: #151D45;
+	-moz-border-radius: 0px;
+	width: 150px;
+	color: #fff;
+}
+
+table.program_list_table td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: inset;
+	border-color: #666;
+	-moz-border-radius: 0px;
+	width: 150px;
+}
+
+table.program_list_table tr:nth-child(2n) td {
+	background-color: #DBD7D2;
+}
+
+/*黒の色 */
+/*
+tr.iro {  
+ background-color: #DBD7D2;
+ font-weight: bold;
+ color: #222;
+ } 
+ */
+ 
+ /* 白の列 */
+ /*
+ tr.iror {    
+ color: #222;
+ font-weight: bold;
+}
+*/
